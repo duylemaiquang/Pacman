@@ -545,7 +545,6 @@ class ClosestDotSearchAgent(SearchAgent):
         "*** YOUR CODE HERE ***"
         actions = search.bfs(problem)
         return actions
-    util.raiseNotDefined()
 
 class AnyFoodSearchProblem(PositionSearchProblem):
     """
